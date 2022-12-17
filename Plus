@@ -1,0 +1,11 @@
+#include <stdio.h>
+main() {    
+    int k, m, sum = 0;
+    for(k=1; k<=3; k++) { 
+        for(m=1; m<=k; m++)
+        sum = sum + m; 
+    }
+printf("%d", sum);
+}
+
+//10
